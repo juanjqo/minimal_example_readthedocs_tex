@@ -1,0 +1,28 @@
+<script>
+MathJax = {
+    options: {
+      ignoreHtmlClass: 'tex2jax_ignore',
+      processHtmlClass: 'tex2jax_process'
+    },
+    tex: {
+      packages: ['base','newcommand','ams']
+    },
+    tex: {
+      macros: {}
+    }
+}
+</script>
+<script>
+Object.assign(MathJax.tex.macros, {
+    E: "{\\mathrm{E}}",
+    R: "{\\mathrm{R}}",
+});
+</script>
+<script>
+Object.assign(MathJax.tex.macros, {
+    A: "{\\mathrm{A}}",
+    N: "{\\mathrm{N}}",
+    Q: "{\\mathrm{Q}}",
+    Z: "{\\mathrm{Z}}",
+});
+</script>

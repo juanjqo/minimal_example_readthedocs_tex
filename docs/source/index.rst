@@ -8,6 +8,8 @@ Welcome to minimal_example's documentation!
 
 The quaternion set is given by
 
+:math:`\E`
+
 :math:`\mathbb{H}\triangleq\left\{ h_{1}+\imi h_{2}+\imj h_{3}+\imk h_{4}\,:\,h_{1},h_{2},h_{3},h_{4}\in\mathbb{R}\right\}`
 
 in which the imaginary units :math:`\imi`, :math:`\imj`, and :math:`\imk` have the following properties:

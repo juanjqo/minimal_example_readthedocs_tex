@@ -36,5 +36,5 @@ html_theme = 'sphinx_rtd_theme'
 
 rst_prolog = """
 .. raw:: html
-    :file: _build/html/mathjax3_config.html
+    :file: mathjax3_config.html
 """

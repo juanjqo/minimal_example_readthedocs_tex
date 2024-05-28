@@ -36,18 +36,3 @@ rst_prolog = """.. raw:: html
     :file: _static/mathjax_config.html
 """
 
-mathjax_path = 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
-
-mathjax_config = {
-    "TeX": {
-        "Macros": {
-            "imi": '{\\hat{\\imath}}',
-	    "imj": '{\\hat{\\jmath}}',
-	    "imk": '{\\hat{k}}',
-            "dual": '{\\varepsilon}',
-            "dq": ['{\\underline{\b{#1}}}',1],
-            "quat": ['\b{#1}',1],
-            "mymatrix": ['\b{#1}',1],
-            }
-        }
-    }

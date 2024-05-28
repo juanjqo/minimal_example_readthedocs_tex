@@ -2,6 +2,18 @@
     MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
     jax: ["input/TeX", "output/HTML-CSS"],
+      TeX: {
+    TagSide: "left",
+        "Macros": {
+            "imi": '{\\hat{\\imath}}',
+	    "imj": '{\\hat{\\jmath}}',
+	    "imk": '{\\hat{k}}',
+            "dual": '{\\varepsilon}',
+            "dq": ['{\\underline{\b{#1}}}',1],
+            "quat": ['\b{#1}',1],
+            "mymatrix": ['\b{#1}',1],
+            }
+    },
     tex2jax: {
       inlineMath: [ ['$','$'], ["\\(","\\)"] ],
       displayMath: [ ['$$','$$'], ["\\[","\\]"] ],

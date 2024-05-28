@@ -26,6 +26,7 @@ exclude_patterns = []
 
 html_theme = 'alabaster'
 html_static_path = ['_static']
+#html_extra_path =['']
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
@@ -35,5 +36,5 @@ html_theme = 'sphinx_rtd_theme'
 
 rst_prolog = """
 .. raw:: html
-    :file: _build/html/_static/mathjax3_config.html
+    :file: _build/html/mathjax3_config.html
 """

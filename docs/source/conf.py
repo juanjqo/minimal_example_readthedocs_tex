@@ -33,16 +33,7 @@ html_static_path = ['_static']
 html_theme = 'sphinx_rtd_theme'
 
 
-mathjax3_config = {
-    "TeX": {
-        "Macros": {
-            "imi": '{\\hat{\\imath}}',
-	    "imj": '{\\hat{\\jmath}}',
-	    "imk": '{\\hat{k}}',
-            "dual": '{\\varepsilon}',
-            "dq": ['{\\underline{\b{#1}}}',1],
-            "quat": ['\b{#1}',1],
-            "mymatrix": ['\b{#1}',1],
-            }
-        }
-    }
+rst_prolog = """
+.. raw:: html
+    :file: ../_static/mathjax3_config.html
+"""
